@@ -4,6 +4,7 @@ import UseStateComponent from "./components/UseStateComponent";
 import {PropsPassingWithProps,PropsPassingWithDestructuring} from "./components/PropsPassing";
 import PracticeHooksComponent from "./components/PracticeHooksComponent";
 import CarComponent from "./components/CarComponent";
+import Flex from "./components/Flex";
 
 function App() {
   let name = 'anurag'
@@ -27,6 +28,8 @@ function App() {
       <PracticeHooksComponent/>
       <hr/>
       <CarComponent/>
+      <hr/>
+      <Flex/>
 
       
     </div>
