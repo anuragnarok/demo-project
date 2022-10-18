@@ -5,6 +5,7 @@ import {PropsPassingWithProps,PropsPassingWithDestructuring} from "./components/
 import PracticeHooksComponent from "./components/PracticeHooksComponent";
 import CarComponent from "./components/CarComponent";
 import Flex from "./components/Flex";
+import UseEffectComponent from "./components/UseEffectComponent";
 
 function App() {
   let name = 'anurag'
@@ -30,6 +31,8 @@ function App() {
       <CarComponent/>
       <hr/>
       <Flex/>
+      <hr/>
+      <UseEffectComponent/>
 
       
     </div>
