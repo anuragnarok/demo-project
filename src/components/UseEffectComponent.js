@@ -9,7 +9,7 @@ function UseEffectComponent() {
        
     });
   return (
-    <div>
+    <div> <h1> useEffect Component </h1>
         <button
         onClick={()=> setCount(count+1)}>count</button> <label>{count}</label> 
         
