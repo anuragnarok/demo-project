@@ -6,6 +6,7 @@ import PracticeHooksComponent from "./components/PracticeHooksComponent";
 import CarComponent from "./components/CarComponent";
 import Flex from "./components/Flex";
 import UseEffectComponent from "./components/UseEffectComponent";
+import NewButton from "./components/NewButton";
 
 function App() {
   let name = 'anurag'
@@ -33,7 +34,8 @@ function App() {
       <Flex/>
       <hr/>
       <UseEffectComponent/>
-
+      <hr />
+      <NewButton/>
       
     </div>
   );
