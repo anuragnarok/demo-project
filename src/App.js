@@ -7,6 +7,7 @@ import CarComponent from "./components/CarComponent";
 import Flex from "./components/Flex";
 import UseEffectComponent from "./components/UseEffectComponent";
 import NewButton from "./components/NewButton";
+import Mui from "./components/Mui";
 
 function App() {
   let name = 'anurag'
@@ -36,7 +37,8 @@ function App() {
       <UseEffectComponent/>
       <hr />
       <NewButton/>
-      
+      <hr/>
+      <Mui/>
     </div>
   );
 }
